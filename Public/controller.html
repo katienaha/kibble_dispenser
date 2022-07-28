@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minnie Nahabedian</title>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js"></script>
+
+  </head>
+  <body>
+
+  <!-- Header -->
+  <header class="w3-display-container w3-content w3-center" style="max-width:1500px" id="home">
+    <img src="images/minnie_outside4.png" style="object-fit:cover; width: 100%; z-index: 0;">
+    <div class="w3-display-left w3-text-white" style="padding:48px">
+      <span class="w3-jumbo w3-hide-small" style="font-family:Raleway;">Minnie Nahabedian</span><br>
+    </div> 
+  </header>
+
+
+  <!-- Treat dispenser -->
+  <section class="text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start" style="background-color: #F4F3EE;" id="dispenser">
+    <div class="container">
+      <div class="row align-items-center justify-content-between">
+        
+        <div >
+          <h1>TREAT DISPENSER</h1>
+          <br><br>
+          <button id="activateBtn" class="btn btn-dark btn-lg w3-hover-opacity" data-bs-toggle="modal" data-bs-target="#thanksModal" style="background-color:#f44336; border: none;" onclick="sendTreat()">Dispense One Treat With Music</button>
+          <br><br><br>
+          <button id="activateBtn" class="btn btn-dark btn-lg w3-hover-opacity" data-bs-toggle="modal" data-bs-target="#thanksModal" style="background-color:#f44336; border: none;" onclick="sendTwoMinsTreatsSilent()">Dispense 2 Minutes Random Treats Silently</button>
+          <br><br><br>
+          <button id="activateBtn" class="btn btn-dark btn-lg w3-hover-opacity" data-bs-toggle="modal" data-bs-target="#thanksModal" style="background-color:#f44336; border: none;" onclick="sendFiveMinsTreatsSilent()">Dispense 5 Minutes Random Treats Silently</button>
+          <br><br><br>
+        </div>
+      </div>
+
+
+    </div>
+    <br>
+  </section>
+
+
+
+  <!-- Footer -->
+  <footer class="w3-center  w3-padding-64" style="background-color: black;">
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <div class="w3-xlarge w3-section">
+      <a href="https://www.instagram.com/furball_foster_fail"><i class="w3-black fa fa-instagram w3-hover-opacity"></i></a>
+    </div>
+  </footer>
+
+  <!-- Modal -->
+  <div class="modal fade" id="thanksModal" >
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        
+        <div class="modal-body text-center">
+          <div style="height: 280px; width: 250px; float: left;"> <img src="images/carrot.png" width="240" height="280"> </div>
+          <br><br><br>
+          <div id="boxTxt" class="w3-large" style="margin-left: 240px;"></div>
+          <br>
+          <button id="okBtn" type="button" style="background-color: #f44336; border: none;" class="btn btn-secondary w3-hover-opacity" data-bs-dismiss="modal">OK</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
+  </body>
+</html>
+
+
+
+    
+    
